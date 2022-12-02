@@ -1,0 +1,90 @@
+.mainHeader {
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 80%;
+  margin: 0 4rem;
+}
+
+.container {
+  display: flex;
+  margin-inline: auto;
+  width: 90%;
+  max-width: 55rem;
+  padding: 3.5rem 3rem;
+  background-color: rgb(15, 13, 13);
+}
+
+.container p{
+  padding-bottom: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.header h1{
+  padding: 3rem 0;
+  color: white;
+}
+
+.footContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.block{
+  flex-basis: 12%;
+  color: rgb(255, 255, 255);
+}
+
+.footContainer li{
+  padding: 6px;
+  padding-left: 0px;
+}
+
+.footContainer a:hover{
+  background-color: #0c0b0b;
+}
+
+.title{
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  font-family: 'OpenSans-Semibold', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.description {
+  padding: 0;
+  margin: 0;
+  font-family: 'OpenSans-Light', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.buttonContainerAbout{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.ncAboutButton{
+  width: 150px;
+  height: 45px;
+  border: none;
+  color: white;
+  background-color: rgb(58, 148, 232);
+  border-radius: 5px;
+  box-shadow: inset 1 0 0 0 rgb(27, 31, 91);
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  outline: none;
+}
+
+.ncAboutHover:hover{
+  box-shadow: inset 150px 0 0 0 rgb(8, 22, 53);
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
